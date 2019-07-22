@@ -8,7 +8,7 @@ import numpy as np
 
 def predict_sales():
 
-    path = 'advertising.csv'
+    path = './doc/advertising.csv'
     data = pd.read_csv(path)
     x = data[['TV', 'radio', 'newspaper']]
     # print(x.head(6))
